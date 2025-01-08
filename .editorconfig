@@ -12,3 +12,9 @@ charset = utf-8
 
 [*.{yml,yaml}]
 indent_size = 2
+
+[*.css]
+indent_size = 2
+
+[*.{mjs,js,jsx,ts,tsx}]
+indent_size = 2
