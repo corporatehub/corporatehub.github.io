@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Consultation Services - CorporateHub',
-  description: 'Unlock your business potential with CorporateHub\'s tailored Odoo consultation services. We provide strategic guidance for optimizing your operations and achieving tangible results.',
+  description: 'We assess your current tool stack and map where profitability visibility breaks down. Outcome: a deployment plan with scope, timeline, and cost.',
 }
 
 export default function ConsultationService() {
@@ -18,7 +18,7 @@ export default function ConsultationService() {
           Consultation Services
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Unlock Your Business Potential with Tailored Odoo Expertise
+          We assess your current tool stack and map where profitability visibility breaks down
         </p>
       </header>
 
@@ -31,29 +31,29 @@ export default function ConsultationService() {
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">One-Size-Doesn&apos;t-Fit-All Approach</h3>
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
               <p className="text-muted-foreground">
-                Your business processes are as unique as your business identity. We don&apos;t believe in cookie-cutter solutions. Instead, we dive deep into your operations to provide personalized recommendations that drive real, measurable results.
+                24 OCA modules on Odoo 18.0, including the professional services timesheet suite. When something needs fixing, I write the code.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Tangible, Incremental Improvements</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
               <p className="text-muted-foreground">
-                Change doesn&apos;t have to be overwhelming. Our team focuses on practical, step-by-step enhancements that empower your business without disrupting day-to-day operations.
+                Configuration-first: 80% standard module configuration, 20% custom to your workflow. Typical timeline: 1&ndash;3 weeks for a 10&ndash;30 person agency.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Proven Expertise</h3>
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
               <p className="text-muted-foreground">
-                With years of experience in Odoo customization, migration, and integration, we bring a wealth of knowledge to the table. You&apos;ll benefit from expert insights tailored to your specific industry and challenges.
+                Every module is OCA-published and open-source licensed. If you outgrow CorporateHub, your system stays. Your data stays.
               </p>
             </CardContent>
           </Card>
@@ -130,42 +130,11 @@ export default function ConsultationService() {
         </div>
       </section>
 
-      {/* Success Stories Section */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Success Stories</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <Card>
-            <CardContent className="pt-6">
-              <blockquote className="space-y-2">
-                <p className="text-muted-foreground">
-                  &quot;CorporateHub helped us streamline our operations and integrate Odoo seamlessly with our existing tools. Their personalized approach and clear recommendations were game-changers for our business.&quot;
-                </p>
-                <footer className="text-sm font-semibold">
-                  &mdash; Sarah T., Operations Manager
-                </footer>
-              </blockquote>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="pt-6">
-              <blockquote className="space-y-2">
-                <p className="text-muted-foreground">
-                  &quot;The team at CorporateHub took the time to understand our unique challenges and provided solutions that really worked. Their consultation was invaluable.&quot;
-                </p>
-                <footer className="text-sm font-semibold">
-                  &mdash; James L., CEO
-                </footer>
-              </blockquote>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Let&apos;s Get Started</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Ready to make your business run smoother? Contact CorporateHub today for a free initial consultation. Let&apos;s explore how Odoo can be tuned to meet your needs and unlock your full potential.
+          15-minute call to assess whether your current tools give you the project-level visibility you need.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -175,11 +144,6 @@ export default function ConsultationService() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }

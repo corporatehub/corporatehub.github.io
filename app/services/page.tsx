@@ -7,39 +7,39 @@ import { generateStructuredData } from '../utils/structuredData'
 
 export const metadata: Metadata = {
   title: 'Our Services - CorporateHub',
-  description: 'Discover CorporateHub\'s comprehensive Odoo services including consultation, training, tuning, data sync & migration, deployment, and support. We help optimize your business operations with tailored solutions.',
+  description: 'CorporateHub deploys profitability and utilization visibility systems for IT services agencies. Consultation, training, tuning, migration, deployment, and support.',
 }
 
 const services = [
   {
     title: "Consultation",
-    description: "Discover how our consultation services helped a manufacturing business optimize its ERP system for smoother operations.",
-    link: "/case-studies/manufacturing-erp-optimization"
+    description: "We assess your current tool stack and map where profitability visibility breaks down. Outcome: a deployment plan with scope, timeline, and cost.",
+    link: "/services/consultation"
   },
   {
     title: "Training",
-    description: "Learn how our training programs empowered a retail team to boost productivity and upskill effectively.",
-    link: "/case-studies/retail-workforce-upskilling"
+    description: "Your team learns the system they will actually use \u2014 timesheet entry, project tracking, and the reports that show whether projects earn or lose.",
+    link: "/services/training"
   },
   {
     title: "Tuning",
-    description: "See how our tuning services enabled precise billing solutions tailored for project-based businesses.",
+    description: "Your Odoo is running but not showing what matters. We configure timesheet workflows, approval chains, and project profitability reports to match how you actually work.",
     link: "/services/tuning"
   },
   {
     title: "Data Sync & Migration",
-    description: "Explore how we seamlessly connected HubSpot and Odoo to enhance data flow and efficiency.",
-    link: "/solutions/hubspot-odoo-sync-migration"
+    description: "Your historical data from Harvest, Toggl, Xero, or Jira migrated into one system. No more exporting CSVs to build a profitability picture.",
+    link: "/services/data-sync-migration"
   },
   {
     title: "Deployment",
-    description: "Find out how our deployment services supported a successful Odoo launch for an e-commerce business.",
-    link: "/case-studies/ecommerce-odoo-deployment"
+    description: "Full deployment of the professional services module suite: time tracking, utilization, project profitability, and role-based costing. Typically 1\u20133 weeks for a 10\u201330 person agency.",
+    link: "/services/deployment"
   },
   {
     title: "Support",
-    description: "Learn how ongoing support services helped a business tackle ERP challenges before they became issues.",
-    link: "/case-studies/proactive-support-erp-challenges"
+    description: "Post-deployment support for configuration changes, new modules, and version upgrades. We maintain the OCA modules your system runs on, so support comes from the source.",
+    link: "/services/support"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function ServicesPage() {
         '@type': 'Service',
         name: service.title,
         description: service.description,
-        url: `https://corporatehub.com${service.link}`
+        url: `https://corporatehub.eu${service.link}`
       }
     }))
   });
@@ -70,7 +70,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how CorporateHub can optimize your business operations with our comprehensive Odoo services.
+            We deploy profitability and utilization visibility systems for IT services agencies. Here is what that looks like.
           </p>
         </header>
 
@@ -139,9 +139,9 @@ export default function ServicesPage() {
         </section>
 
         <section className="text-center rounded-lg px-4 py-8 md:py-12 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a Customized Solution?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to see what this looks like for your agency?</h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto">
-            We specialize in tailoring our services to meet your unique business needs. Let&apos;s discuss how we can optimize your Odoo experience.
+            15-minute call to assess whether your current tools give you the project-level visibility you need.
           </p>
           <Button asChild size="lg" className="gap-2">
             <Link href="/contact">
@@ -151,11 +151,6 @@ export default function ServicesPage() {
           </Button>
         </section>
 
-        <footer className="text-center mt-16">
-          <p className="text-lg font-semibold text-primary">
-            CorporateHub – Making Business Run Smoother, One Step at a Time
-          </p>
-        </footer>
       </div>
     </>
   )

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Support Services - CorporateHub',
-  description: 'Get reliable, ongoing assistance for your Odoo system with CorporateHub\'s support services. We ensure your Odoo environment stays optimized and aligned with your evolving business needs.',
+  description: 'Post-deployment support for configuration changes, new modules, and version upgrades. We maintain the OCA modules your system runs on, so support comes from the source.',
 }
 
 export default function SupportService() {
@@ -18,7 +18,7 @@ export default function SupportService() {
           Support Services
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Making Business Run Smoother – One Step at a Time
+          Post-deployment support from the source &mdash; we maintain the OCA modules your system runs on
         </p>
       </header>
 
@@ -30,11 +30,11 @@ export default function SupportService() {
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub Support?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub for Support</h2>
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-muted-foreground">
-              With our one-size-doesn&apos;t-fit-all approach, we focus on delivering support that addresses the unique challenges of your business. From quick troubleshooting to strategic optimizations, our support solutions are designed to handle the subtleties that define your business processes.
+              We maintain 24 OCA modules on Odoo 18.0, including the professional services timesheet suite your system runs on. When you need a configuration change, a new module, or a version upgrade, support comes from the people who wrote the code &mdash; not a re-seller reading documentation.
             </p>
           </CardContent>
         </Card>
@@ -141,11 +141,10 @@ export default function SupportService() {
 
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Let&apos;s Simplify Your Odoo Experience</h2>
+        <h2 className="text-3xl font-bold mb-4">See What Support From the Source Looks Like</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Whether you&apos;re resolving a critical issue or looking for continuous improvements, our support team is here to help. With CorporateHub, your business runs smoother – one step at a time.
+          15-minute call to assess whether your current tools give you the project-level visibility you need.
         </p>
-        <p className="text-2xl font-bold mb-8">Ready for hassle-free support?</p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
             Contact Us Today
@@ -154,11 +153,6 @@ export default function SupportService() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }

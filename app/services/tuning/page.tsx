@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Tuning Services - CorporateHub',
-  description: 'Optimize your Odoo experience with CorporateHub\'s expert tuning services. We fine-tune your system for peak performance, focusing on HR, Project, Accounting, and UX enhancements.',
+  description: 'Your Odoo is running but not showing what matters. We configure timesheet workflows, approval chains, and project profitability reports to match how you actually work.',
 }
 
 export default function TuningService() {
@@ -18,17 +18,17 @@ export default function TuningService() {
           Tuning Services for Odoo
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          At CorporateHub, we believe that Odoo should work for your business, not the other way around. Our tuning services are designed to adapt and refine your Odoo platform to match the unique needs of your business processes.
+          Your Odoo is running but not showing what matters. We configure timesheet workflows, approval chains, and project profitability reports to match how you actually work.
         </p>
       </header>
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub for Odoo Tuning?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub for Tuning</h2>
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-muted-foreground">
-              We apply a one-size-doesn&apos;t-fit-all philosophy, focusing on tangible, incremental improvements that make a difference. By addressing subtle details and aligning Odoo with your business identity, we deliver a solution that truly fits.
+              We maintain 24 OCA modules on Odoo 18.0, including the professional services timesheet suite your system will run on. When a configuration change requires a module fix, we write the code &mdash; we do not file a ticket. Configuration-first methodology: 80% of the system is standard module configuration, 20% is custom to your workflow.
             </p>
           </CardContent>
         </Card>
@@ -145,9 +145,9 @@ export default function TuningService() {
 
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Let&apos;s Make Your Odoo Better</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Your business is unique, and your Odoo system should reflect that. Whether you need a simple enhancement or a complete overhaul, CorporateHub is here to help. Contact us today to explore how we can tune Odoo to meet your goals.
+          15-minute call to assess whether your current Odoo configuration gives you the project-level visibility you need.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -156,11 +156,6 @@ export default function TuningService() {
           </Link>
         </Button>
       </section>
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }
