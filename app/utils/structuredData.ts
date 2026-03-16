@@ -12,7 +12,7 @@ export function generateStructuredData(data: Partial<StructuredData>): string {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'CorporateHub®',
-    description: 'CorporateHub® offers consultation, training, tuning, data sync & migration, deployment, and support services for businesses using Odoo.',
+    description: 'Odoo consulting partner specializing in profitability and utilization visibility for IT services agencies. Built by an OCA maintainer with 24 modules on Odoo 18.0.',
     url: 'https://corporatehub.eu',
     ...data
   };

@@ -81,7 +81,7 @@ const Header = () => {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link href="/case-studies" className={`text-sm font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark} h-auto`}>Case Studies</Link>
+            <Link href="/case-studies" className={`text-sm font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark} h-auto`}>Our Work</Link>
             <div className="hidden md:flex items-center space-x-4">
               <Button asChild>
                 <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">Schedule a Consultation</Link>
@@ -103,7 +103,7 @@ const Header = () => {
             <Link href="/about" className={`block px-3 py-2 text-base font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>About Us</Link>
             <Link href="/services" className={`block px-3 py-2 text-base font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Services</Link>
             <Link href="/solutions" className={`block px-3 py-2 text-base font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Solutions</Link>
-            <Link href="/case-studies" className={`block px-3 py-2 text-base font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Case Studies</Link>
+            <Link href="/case-studies" className={`block px-3 py-2 text-base font-medium ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Our Work</Link>
           </nav>
           <div className="px-4 py-3 flex justify-between items-center">
             <Button asChild className="w-full mr-2">

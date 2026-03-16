@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Training Services - CorporateHub',
-  description: 'Empower your team with CorporateHub\'s customized Odoo training services. Our hands-on approach ensures your staff can maximize the potential of your Odoo platform.',
+  description: 'Your team learns the system they will actually use \u2014 timesheet entry, project tracking, and the reports that show whether projects earn or lose.',
 }
 
 export default function TrainingService() {
@@ -15,38 +15,38 @@ export default function TrainingService() {
       {/* Hero Section */}
       <header className="text-center mb-16">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
-          Training for Odoo: Empower Your Team to Excel
+          Training Services
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          At CorporateHub, we believe that software is only as good as the people using it. Our Odoo training services are tailored to equip your team with the skills and confidence they need to maximize the potential of your Odoo platform.
+          Your team learns the system they will actually use &mdash; timesheet entry, project tracking, and the reports that show whether projects earn or lose.
         </p>
       </header>
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub for Odoo Training?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub for Training</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">One-size-doesn&apos;t-fit-all approach</h3>
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
               <p className="text-muted-foreground">
-                We understand that every business is unique. Our training programs are designed to align with your specific workflows, ensuring that your team learns what matters most to your operations.
+                24 OCA modules on Odoo 18.0, including the professional services timesheet suite. When something needs fixing, I write the code.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Hands-on, practical learning</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
               <p className="text-muted-foreground">
-                Forget generic tutorials. We focus on practical, real-world scenarios that your team encounters daily, making the training sessions relevant and immediately actionable.
+                Configuration-first: 80% standard module configuration, 20% custom to your workflow. Typical timeline: 1&ndash;3 weeks for a 10&ndash;30 person agency.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Incremental results that matter</h3>
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
               <p className="text-muted-foreground">
-                We prioritize tangible outcomes, breaking complex topics into manageable steps that help your team build their expertise progressively.
+                Every module is OCA-published and open-source licensed. If you outgrow CorporateHub, your system stays. Your data stays.
               </p>
             </CardContent>
           </Card>
@@ -143,7 +143,7 @@ export default function TrainingService() {
             },
             {
               title: "Minimize Errors",
-              description: "Proper training reduces mistakes, ensuring smoother operations."
+              description: "Proper training reduces mistakes and keeps your data accurate from day one."
             },
             {
               title: "Enhance ROI",
@@ -165,9 +165,9 @@ export default function TrainingService() {
 
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Ready to Empower Your Team?</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Team</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Let&apos;s make your Odoo experience seamless and impactful. Contact CorporateHub today to discuss your training needs and start making business run smoother—one step at a time.
+          15-minute call to assess whether your current tools give you the project-level visibility you need.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -177,11 +177,6 @@ export default function TrainingService() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }

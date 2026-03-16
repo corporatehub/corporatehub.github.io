@@ -10,8 +10,8 @@ import { ThemeProvider } from './components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'CorporateHub® - Making business run smoother',
-  description: 'CorporateHub® offers consultation, training, tuning, data sync & migration, deployment, and support services for businesses using Odoo.',
+  title: 'CorporateHub\u00ae \u2014 Your profitability, visible.',
+  description: 'Odoo consulting partner specializing in profitability and utilization visibility for IT services agencies. Built by an OCA maintainer with 24 modules on Odoo 18.0.',
   metadataBase: new URL('https://corporatehub.eu'),
 }
 

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Data Sync & Migration Services - CorporateHub',
-  description: 'Seamlessly integrate your business tools with CorporateHub\'s data sync and migration services for Odoo. We ensure smooth transitions and efficient data flow between systems.',
+  description: 'Your historical data from Harvest, Toggl, Xero, or Jira migrated into one system. No more exporting CSVs to build a profitability picture.',
 }
 
 export default function DataSyncMigrationService() {
@@ -18,41 +18,41 @@ export default function DataSyncMigrationService() {
           Data Sync & Migration Services
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Seamless Integration for Business Growth
+          Your historical data from Harvest, Toggl, Xero, or Jira migrated into one system
         </p>
       </header>
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          In today&apos;s fast-paced business environment, ensuring your systems work together without hiccups is crucial. At CorporateHub, we specialize in making your data transition and synchronization processes smooth, efficient, and tailored to your unique business needs.
+          Most IT services agencies have timesheet data in one tool, accounting in another, and project tracking in a third. We bring it all into one system so you can see project profitability without exporting CSVs.
         </p>
       </section>
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">One-Size-Doesn&apos;t-Fit-All Approach</h3>
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
               <p className="text-muted-foreground">
-                We recognize that no two businesses are alike. That&apos;s why we customize every data sync and migration project to suit your specific requirements.
+                24 OCA modules on Odoo 18.0, including the professional services timesheet suite. When something needs fixing, I write the code.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Focus on Incremental Results</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
               <p className="text-muted-foreground">
-                Whether it&apos;s syncing two platforms or a complete migration, we ensure every step delivers measurable value.
+                Configuration-first: 80% standard module configuration, 20% custom to your workflow. Typical timeline: 1&ndash;3 weeks for a 10&ndash;30 person agency.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Preserving Your Business Identity</h3>
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
               <p className="text-muted-foreground">
-                Your business processes are unique, and so are the nuances that make them work. We ensure every subtle detail is carried forward flawlessly.
+                Every module is OCA-published and open-source licensed. If you outgrow CorporateHub, your system stays. Your data stays.
               </p>
             </CardContent>
           </Card>
@@ -171,9 +171,9 @@ export default function DataSyncMigrationService() {
 
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Ready to Streamline Your Business?</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Let&apos;s make your data work for you. Contact CorporateHub today to learn how our Data Sync & Migration services can enhance your business processes and drive growth.
+          15-minute call to assess whether your current tools give you the project-level visibility you need.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -183,11 +183,6 @@ export default function DataSyncMigrationService() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }

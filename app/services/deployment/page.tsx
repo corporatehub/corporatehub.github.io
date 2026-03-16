@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Deployment Services - CorporateHub',
-  description: 'Ensure a smooth Odoo implementation with CorporateHub\'s expert deployment services. We handle the technical complexities, allowing you to focus on your business growth.',
+  description: 'Full deployment of the professional services module suite: time tracking, utilization, project profitability, and role-based costing. Typically 1\u20133 weeks for a 10\u201330 person agency.',
 }
 
 export default function DeploymentService() {
@@ -18,49 +18,49 @@ export default function DeploymentService() {
           Deployment Services
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Smooth, Stress-Free Odoo Rollout
+          Full deployment of the professional services module suite. Typically 1&ndash;3 weeks for a 10&ndash;30 person agency.
         </p>
       </header>
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          At <strong>CorporateHub</strong>, we understand that deploying Odoo isn&apos;t just about getting the software up and running; it&apos;s about making it work seamlessly for your business from day one. Whether you&apos;re starting fresh or transitioning from a legacy system, our deployment services ensure a smooth and reliable rollout tailored to your needs.
+          We deploy integrated time-tracking, utilization, project profitability, and role-based costing modules for IT services agencies. The difference: we wrote the modules. You get the author, not someone configuring someone else&apos;s software.
         </p>
       </section>
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub for Odoo Deployment?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub for Deployment</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Tailored Deployment Strategies</h3>
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
               <p className="text-muted-foreground">
-                We don&apos;t believe in one-size-fits-all. Each business is unique, and so is its deployment journey. Our team analyzes your workflows, systems, and goals to craft a customized deployment strategy.
+                24 OCA modules on Odoo 18.0, including the professional services timesheet suite. When something needs fixing or extending, I write the code.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">End-to-End Support</h3>
+              <h3 className="text-xl font-semibold mb-3">Configuration-first methodology</h3>
               <p className="text-muted-foreground">
-                From initial system configuration to the final rollout, we&apos;re by your side. We&apos;ll handle the technical complexities so you can focus on running your business.
+                80% of the system is standard module configuration, 20% is custom to your workflow. This is why deployment takes weeks, not months.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Minimized Downtime</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
               <p className="text-muted-foreground">
-                We know time is money. Our deployment process is designed to minimize disruption to your operations, ensuring a quick and efficient transition.
+                Typical timeline: 1&ndash;3 weeks remote deployment for a 10&ndash;30 person agency. We configure, migrate, train, and go live.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Expertise You Can Trust</h3>
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
               <p className="text-muted-foreground">
-                With years of experience deploying Odoo for businesses across industries, we&apos;ve mastered the art of delivering seamless implementations.
+                Every module is OCA-published and open-source licensed. If you outgrow CorporateHub, your system stays. Your data stays. Another Odoo partner can pick up where we left off.
               </p>
             </CardContent>
           </Card>
@@ -163,9 +163,9 @@ export default function DeploymentService() {
 
       {/* CTA Section */}
       <section className="text-center px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Start Your Odoo Journey with Confidence</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Ready to make your Odoo deployment a success? Let CorporateHub guide you every step of the way. Contact us today to discuss your needs and discover how we can make your Odoo rollout smooth, efficient, and stress-free.
+          15-minute call to assess whether your current tools give you the project-level visibility you need.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -175,11 +175,6 @@ export default function DeploymentService() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
     </article>
   )
 }

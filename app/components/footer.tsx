@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className={`text-md ${commonStyles.heading} mb-4`}>
-              <Link href="/case-studies" className={`${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Case Studies</Link>
+              <Link href="/case-studies" className={`${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Our Work</Link>
             </h4>
             <ul className="space-y-2">
               <li><Link href="/case-studies/manufacturing-erp-optimization" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Manufacturing ERP Optimization</Link></li>
