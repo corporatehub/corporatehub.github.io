@@ -42,13 +42,10 @@ const Footer = () => {
               <Link href="/case-studies" className={`${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Our Work</Link>
             </h4>
             <ul className="space-y-2">
-              <li><Link href="/case-studies/manufacturing-erp-optimization" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Manufacturing ERP Optimization</Link></li>
-              <li><Link href="/case-studies/business-bottlenecks-resolution" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Business Bottlenecks Resolution</Link></li>
-              <li><Link href="/case-studies/productivity-increase-through-training" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Productivity Increase Through Training</Link></li>
-              <li><Link href="/case-studies/retail-workforce-upskilling" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Retail Workforce Upskilling</Link></li>
-              <li><Link href="/case-studies/hr-optimization-multinational-firm" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>HR Optimization for Multinational Firm</Link></li>
-              <li><Link href="/case-studies/ux-enhancements-operational-efficiency" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>UX Enhancements for Operational Efficiency</Link></li>
-
+              <li><Link href="/case-studies#professional-services-suite" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Professional Services Suite</Link></li>
+              <li><Link href="/case-studies#community-standing" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>Community Standing</Link></li>
+              <li><Link href="https://github.com/OCA/timesheet" target="_blank" rel="noopener noreferrer" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>OCA Timesheet Repo</Link></li>
+              <li><Link href="https://github.com/OCA/hr" target="_blank" rel="noopener noreferrer" className={`text-sm ${commonStyles.link} ${commonStyles.linkLight} ${commonStyles.linkDark}`}>OCA HR Repo</Link></li>
             </ul>
           </div>
         </div>
