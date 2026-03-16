@@ -24,7 +24,7 @@ export default function JiraOdooSyncMigration() {
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          CorporateHub&apos;s Jira ↔ Odoo Sync & Migration solution is designed to simplify workflows and enhance collaboration by integrating the robust project management capabilities of Jira with the all-in-one business efficiency of Odoo. Whether you&apos;re migrating data, syncing platforms, or both, we make the process seamless and tailored to your needs.
+          Jira tracks your engineering work. Odoo tracks your business operations. This integration connects them &mdash; syncing issues, sprints, and workflows between both platforms, or migrating your full Jira history into Odoo with every comment and attachment intact.
         </p>
       </section>
 
@@ -196,7 +196,7 @@ export default function JiraOdooSyncMigration() {
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
           {[
             { title: "Consultation", description: "We start by understanding your unique workflows and identifying key requirements for integration or migration." },
-            { title: "Solution Design", description: "Our experts create a tailored plan to align Jira and Odoo with your operational goals." },
+            { title: "Solution Design", description: "We map your Jira workflows to Odoo and configure field mappings, statuses, and sync rules." },
             { title: "Implementation", description: "Whether syncing or migrating, our team ensures minimal disruption while setting up the solution." },
             { title: "Testing", description: "Extensive testing guarantees smooth operation, accurate data handling, and full compatibility." },
             { title: "Training & Support", description: "We equip your teams with the knowledge to leverage the integration and provide ongoing assistance." },
@@ -221,20 +221,39 @@ export default function JiraOdooSyncMigration() {
       {/* Why CorporateHub Section */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-8">Why CorporateHub?</h2>
-        <Card>
-          <CardContent className="pt-6">
-            <p className="text-lg text-muted-foreground">
-              CorporateHub combines technical expertise with a customer-first approach to deliver solutions that make business processes smoother. We focus on achieving incremental results while ensuring that the unique aspects of your business identity are preserved.
-            </p>
-          </CardContent>
-        </Card>
+        <div className="grid md:grid-cols-3 gap-6">
+          <Card>
+            <CardContent className="pt-6">
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
+              <p className="text-muted-foreground">
+                24 OCA modules on 18.0 &mdash; we write the code that powers these integrations.
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="pt-6">
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
+              <p className="text-muted-foreground">
+                80/20 configuration-first approach. We configure what exists and build only what&apos;s missing.
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="pt-6">
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
+              <p className="text-muted-foreground">
+                OCA-published, Apache/LGPL licensed. You own the code and can walk away any time.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
       </section>
 
       {/* CTA Section */}
       <section className="text-center bg-muted rounded-lg px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Unlock the full potential of your project and business management tools with CorporateHub&apos;s Jira ↔ Odoo Sync & Migration solution.
+          Book a 30-minute call and we&apos;ll walk through your Jira setup, identify what maps to Odoo, and scope the integration.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="/contact">
@@ -244,11 +263,7 @@ export default function JiraOdooSyncMigration() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making business run smoother — one step at a time.
-        </p>
-      </footer>
+      {/* Footer tagline removed - brand alignment */}
     </article>
   )
 }

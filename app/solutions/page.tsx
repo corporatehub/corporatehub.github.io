@@ -6,28 +6,28 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Our Solutions - CorporateHub',
-  description: 'Explore CorporateHub\'s tailored integration and migration solutions for HubSpot, Jira, Tempo Timesheets, and Kantata/Mavenlink with Odoo.',
+  description: 'CorporateHub integration and migration capabilities for connecting HubSpot, Jira, Tempo Timesheets, and Kantata/Mavenlink with Odoo.',
 }
 
 const solutions = [
   {
     title: "HubSpot ↔ Odoo",
-    description: "Dive into a real-world example of how we transitioned a business from HubSpot to Odoo without data loss.",
+    description: "Sync contacts, companies, and deals between HubSpot and Odoo &mdash; or migrate your full CRM history.",
     link: "/case-studies/hubspot-to-odoo-migration"
   },
   {
     title: "Jira ↔ Odoo",
-    description: "See how our integration expertise bridged Jira and Odoo for better project management.",
+    description: "Sync Jira issues, sprints, and workflows with Odoo projects &mdash; keep engineering and operations aligned.",
     link: "/case-studies/jira-odoo-integration"
   },
   {
     title: "Tempo Timesheets ↔ Odoo",
-    description: "Read about how our sync solution ensured accurate timesheet data in Odoo.",
+    description: "Pull Tempo timesheet entries into Odoo for consolidated billing and utilization reporting.",
     link: "/case-studies/tempo-timesheets-odoo-sync"
   },
   {
     title: "Kantata/Mavenlink ↔ Odoo",
-    description: "Discover how our migration solution simplified billing processes for complex projects.",
+    description: "Move project data, timesheets, and financials from Kantata/Mavenlink into Odoo &mdash; or keep both in sync.",
     link: "/solutions/kantata-mavenlink-odoo-sync-migration"
   }
 ]
@@ -40,7 +40,7 @@ export default function SolutionsPage() {
           Our Solutions
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Discover how CorporateHub can help streamline your business processes with our tailored integration and migration solutions.
+          We connect your existing tools with Odoo so your data flows into one integrated system.
         </p>
       </header>
 
@@ -67,7 +67,7 @@ export default function SolutionsPage() {
       <section className="text-center rounded-lg px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-4">Can&apos;t Find What You&apos;re Looking For?</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          We specialize in creating custom solutions tailored to your unique business needs. Let&apos;s discuss how we can help streamline your processes.
+          Need an integration not listed here? We build custom connectors for Odoo.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">
@@ -77,11 +77,7 @@ export default function SolutionsPage() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making Business Run Smoother, One Step at a Time
-        </p>
-      </footer>
+      {/* Footer tagline removed - brand alignment */}
     </div>
   )
 }
