@@ -85,15 +85,15 @@ export default function ServicesPage() {
                   <p className="text-muted-foreground mb-4">{service.description}</p>
                   {service.title === "Consultation" && (
                     <Button asChild variant="outline">
-                      <Link href="/case-studies/manufacturing-erp-optimization" className="flex items-center">
-                        Learn How We Did It <ArrowRight className="ml-2 h-4 w-4" />
+                      <Link href="/case-studies" className="flex items-center">
+                        See Our Work <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                   )}
                   {service.title === "Training" && (
                     <Button asChild variant="outline">
-                      <Link href="/case-studies/retail-workforce-upskilling" className="flex items-center">
-                        Explore Training Success <ArrowRight className="ml-2 h-4 w-4" />
+                      <Link href="/case-studies" className="flex items-center">
+                        See Our Work <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                   )}
@@ -113,15 +113,15 @@ export default function ServicesPage() {
                   )}
                   {service.title === "Deployment" && (
                     <Button asChild variant="outline">
-                      <Link href="/case-studies/ecommerce-odoo-deployment" className="flex items-center">
-                        See the Case Study <ArrowRight className="ml-2 h-4 w-4" />
+                      <Link href="/case-studies" className="flex items-center">
+                        See Our Work <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                   )}
                   {service.title === "Support" && (
                     <Button asChild variant="outline">
-                      <Link href="/case-studies/proactive-support-erp-challenges" className="flex items-center">
-                        Learn More About Our Support <ArrowRight className="ml-2 h-4 w-4" />
+                      <Link href="/case-studies" className="flex items-center">
+                        See Our Work <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                   )}

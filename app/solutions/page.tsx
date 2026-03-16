@@ -13,17 +13,17 @@ const solutions = [
   {
     title: "HubSpot ↔ Odoo",
     description: "Sync contacts, companies, and deals between HubSpot and Odoo &mdash; or migrate your full CRM history.",
-    link: "/case-studies/hubspot-to-odoo-migration"
+    link: "/solutions/hubspot-odoo-sync-migration"
   },
   {
     title: "Jira ↔ Odoo",
     description: "Sync Jira issues, sprints, and workflows with Odoo projects &mdash; keep engineering and operations aligned.",
-    link: "/case-studies/jira-odoo-integration"
+    link: "/solutions/jira-odoo-sync-migration"
   },
   {
     title: "Tempo Timesheets ↔ Odoo",
     description: "Pull Tempo timesheet entries into Odoo for consolidated billing and utilization reporting.",
-    link: "/case-studies/tempo-timesheets-odoo-sync"
+    link: "/solutions/tempo-timesheets-odoo-sync-migration"
   },
   {
     title: "Kantata/Mavenlink ↔ Odoo",
