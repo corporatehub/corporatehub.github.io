@@ -51,7 +51,7 @@ export default function SupportService() {
                 <h3 className="text-xl font-semibold">Ongoing Maintenance & Issue Resolution</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Keep your Odoo environment running seamlessly. Our experts provide:
+                Keep your Odoo environment running without interruption. Our experts provide:
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>Proactive monitoring and updates</li>
@@ -88,7 +88,7 @@ export default function SupportService() {
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>Tailored feature updates to meet business requirements</li>
                 <li>Expert advice on leveraging Odoo&apos;s capabilities</li>
-                <li>Seamless integration of third-party tools</li>
+                <li>Integration of third-party tools with your Odoo instance</li>
               </ul>
             </CardContent>
           </Card>
@@ -115,7 +115,7 @@ export default function SupportService() {
                 <h3 className="text-xl font-semibold">End-User Support & Training</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Empower your team to get the most out of Odoo:
+                Help your team get the most out of Odoo:
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>Quick support for user queries</li>
