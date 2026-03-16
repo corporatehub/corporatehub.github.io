@@ -26,8 +26,7 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         <section className="text-center mb-12 md:mb-16">
           <h1 className={`text-8xl md:text-7xl font-bold mb-4 ${commonStyles.headingLight} ${commonStyles.headingDark} mb-16 md:mb-12`}>Your agency&apos;s pulse.</h1>
-          <p className={`text-xl md:text-2xl ${commonStyles.text} mb-6 md:mb-4`}>Not your accountant&apos;s surprise.</p>
-          <p className={`text-lg md:text-xl ${commonStyles.text} mb-24 md:mb-16 opacity-70`}>Real-time project profitability and utilization for IT services agencies.</p>
+          <p className={`text-xl md:text-2xl ${commonStyles.text} mb-24 md:mb-16`}>Real-time project profitability and utilization for IT services agencies.</p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button asChild size="lg">
               <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">Schedule a Consultation</Link>
