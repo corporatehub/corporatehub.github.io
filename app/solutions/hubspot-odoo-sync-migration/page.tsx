@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'HubSpot ↔ Odoo Sync & Migration - CorporateHub',
-  description: 'Seamlessly connect your sales and operations with CorporateHub\'s HubSpot to Odoo sync and migration solutions.',
+  description: 'Connect your HubSpot CRM data with Odoo for unified sales and operations visibility.',
 }
 
 export default function HubSpotOdooSyncMigration() {
@@ -18,41 +18,41 @@ export default function HubSpotOdooSyncMigration() {
           HubSpot ↔ Odoo Sync & Migration
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Seamlessly Connect Your Sales and Operations
+          Connect your sales pipeline to your operations
         </p>
       </header>
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          Unlock the full potential of your business by integrating HubSpot with Odoo. Whether you&apos;re looking to sync data in real-time or migrate your historical data with precision, CorporateHub has you covered. With our tailored approach, your business systems will work in harmony, saving you time, reducing errors, and driving productivity.
+          HubSpot runs your pipeline. Odoo runs your operations. This integration connects them &mdash; syncing contacts, companies, and deals in real time, or migrating your full CRM history into Odoo with every note and activity log intact.
         </p>
       </section>
 
       {/* Why Choose Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Why Choose CorporateHub for HubSpot ↔ Odoo Integration?</h2>
+        <h2 className="text-3xl font-bold mb-8">Why CorporateHub?</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">One-Size-Doesn&apos;t-Fit-All Approach</h3>
+              <h3 className="text-xl font-semibold mb-3">You get the author, not a re-seller</h3>
               <p className="text-muted-foreground">
-                We understand that every business is unique. That&apos;s why we design solutions that align with your workflows and business goals, ensuring a seamless integration process.
+                24 OCA modules on 18.0 &mdash; we write the code that powers these integrations.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Incremental, Tangible Results</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployed in weeks, not months</h3>
               <p className="text-muted-foreground">
-                Our focus is on delivering measurable improvements. With each phase of the integration or migration, you&apos;ll experience real benefits that keep your business moving forward.
+                80/20 configuration-first approach. We configure what exists and build only what&apos;s missing.
               </p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-3">Expertise You Can Trust</h3>
+              <h3 className="text-xl font-semibold mb-3">Open-source, no lock-in</h3>
               <p className="text-muted-foreground">
-                From consultation to support, our team of experts brings deep knowledge of both HubSpot and Odoo, ensuring every detail is addressed with care.
+                OCA-published, Apache/LGPL licensed. You own the code and can walk away any time.
               </p>
             </CardContent>
           </Card>
@@ -149,7 +149,7 @@ export default function HubSpotOdooSyncMigration() {
                 <h3 className="text-xl font-semibold">Scale Without Stress</h3>
               </div>
               <p className="text-muted-foreground">
-                Our solutions are designed to grow with your business, ensuring seamless performance even as your data volume increases.
+                Designed to grow with your business, handling increased data volume without degradation.
               </p>
             </CardContent>
           </Card>
@@ -162,8 +162,8 @@ export default function HubSpotOdooSyncMigration() {
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
           {[
             { title: "Consultation", description: "We&apos;ll work with you to understand your business needs and define the integration or migration scope." },
-            { title: "Design & Configuration", description: "Our experts will craft a tailored solution, including custom mappings, workflows, and sync settings." },
-            { title: "Testing & Validation", description: "Before deployment, we rigorously test the integration to ensure flawless performance and data accuracy." },
+            { title: "Design & Configuration", description: "We configure field mappings, workflows, and sync settings to match your operations." },
+            { title: "Testing & Validation", description: "Before deployment, we run the integration against your data to verify accuracy and catch edge cases." },
             { title: "Deployment", description: "We implement the solution with minimal disruption to your operations." },
             { title: "Training & Support", description: "Our team provides thorough training and ongoing support, so your staff can make the most of the integration." },
           ].map((step, index) => (
@@ -186,9 +186,9 @@ export default function HubSpotOdooSyncMigration() {
 
       {/* CTA Section */}
       <section className="text-center bg-muted rounded-lg px-4 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Workflow?</h2>
+        <h2 className="text-3xl font-bold mb-4">See What This Looks Like for Your Agency</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Streamline your business processes with CorporateHub&apos;s HubSpot ↔ Odoo Sync & Migration solutions. Contact us today to schedule a consultation and take the first step toward seamless business operations.
+          Book a 30-minute call and we&apos;ll walk through your HubSpot setup, identify what maps to Odoo, and scope the integration.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="/contact">
@@ -198,11 +198,7 @@ export default function HubSpotOdooSyncMigration() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making business run smoother – one step at a time.
-        </p>
-      </footer>
+      {/* Footer tagline removed - brand alignment */}
     </article>
   )
 }

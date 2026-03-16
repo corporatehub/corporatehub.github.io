@@ -18,13 +18,13 @@ export default function TempoTimesheetsOdooSyncMigration() {
           Tempo Timesheets ↔ Odoo Sync & Migration
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Unlock Seamless Integration Between Tempo Timesheets and Odoo
+          Connect your Tempo timesheet data with Odoo
         </p>
       </header>
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          At CorporateHub, we specialize in aligning your tools to enhance efficiency and accuracy. Our Tempo Timesheets ↔ Odoo Sync & Migration solution bridges the gap between these platforms, ensuring your data flows seamlessly without disruption.
+          Tempo Timesheets tracks your team&apos;s hours. Odoo runs your billing and resource planning. This integration connects them &mdash; syncing timesheet entries, project details, and billing data between both platforms, or migrating your full Tempo history into Odoo.
         </p>
       </section>
 
@@ -168,7 +168,7 @@ export default function TempoTimesheetsOdooSyncMigration() {
             { title: "Consultation", description: "Understand your business processes and requirements." },
             { title: "Custom Configuration", description: "Build the sync or migration process around your workflows." },
             { title: "Data Testing & Validation", description: "Ensure accuracy and consistency before full deployment." },
-            { title: "Deployment & Training", description: "Seamlessly implement the solution and train your team for success." },
+            { title: "Deployment & Training", description: "Deploy the integration and train your team on the new workflow." },
             { title: "Ongoing Support", description: "Stay confident with dedicated support after implementation." },
           ].map((step, index) => (
             <Card key={index}>
@@ -232,7 +232,7 @@ export default function TempoTimesheetsOdooSyncMigration() {
       <section className="text-center bg-muted rounded-lg px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-4">Ready to Make the Switch?</h2>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Integrate Tempo Timesheets and Odoo with confidence. CorporateHub is here to ensure your sync or migration is smooth, efficient, and tailored to your business needs.
+          Book a 30-minute call and we&apos;ll walk through your Tempo setup, identify what maps to Odoo, and scope the integration.
         </p>
         <Button asChild size="lg" className="gap-2">
           <Link href="/contact">
@@ -242,11 +242,7 @@ export default function TempoTimesheetsOdooSyncMigration() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making business run smoother – one step at a time.
-        </p>
-      </footer>
+      {/* Footer tagline removed - brand alignment */}
     </article>
   )
 }

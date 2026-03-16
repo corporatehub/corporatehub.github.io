@@ -18,13 +18,13 @@ export default function KantataMavenlinkOdooSyncMigration() {
           Kantata/Mavenlink ↔ Odoo Sync & Migration
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Streamline Your Workflow with Seamless Integration
+          Connect Kantata/Mavenlink project data with Odoo
         </p>
       </header>
 
       <section className="mb-16">
         <p className="text-lg text-muted-foreground mb-8">
-          At <strong>CorporateHub</strong>, we understand that every business process contributes to your unique identity. Whether you&apos;re looking to sync real-time data between <strong>Kantata/Mavenlink</strong> and <strong>Odoo</strong> or migrate your data for a complete platform shift, our tailored solutions are here to make the transition effortless.
+          Kantata/Mavenlink runs your project delivery. Odoo runs your back office. This integration connects them &mdash; syncing project data, timesheets, and financials between both platforms, or migrating your full Kantata/Mavenlink history into Odoo.
         </p>
         <p className="text-lg text-muted-foreground mb-8">
           With our <strong>one-size-doesn&apos;t-fit-all</strong> approach, we ensure that the integration or migration is aligned with your business goals, capturing every subtle detail that matters.
@@ -187,7 +187,7 @@ export default function KantataMavenlinkOdooSyncMigration() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-muted-foreground mb-4">
-              Migrating or syncing your data doesn&apos;t have to be a hassle. <strong>CorporateHub</strong> takes the complexity out of integration and migration, ensuring your systems work together seamlessly so you can focus on what really matters—growing your business.
+              Migrating or syncing your data doesn&apos;t have to be a hassle. <strong>CorporateHub</strong> handles the complexity of integration and migration so your systems work together and you can focus on what matters &mdash; running your agency.
             </p>
           </CardContent>
         </Card>
@@ -204,11 +204,7 @@ export default function KantataMavenlinkOdooSyncMigration() {
         </Button>
       </section>
 
-      <footer className="text-center mt-16">
-        <p className="text-lg font-semibold text-primary">
-          CorporateHub – Making business run smoother—one step at a time.
-        </p>
-      </footer>
+      {/* Footer tagline removed - brand alignment */}
     </article>
   )
 }
