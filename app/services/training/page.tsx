@@ -76,7 +76,7 @@ export default function TrainingService() {
             {
               icon: Shield,
               title: "Administrator Training",
-              description: "Empower your administrators with the knowledge they need to configure, customize, and maintain Odoo for your business&apos;s unique needs."
+              description: "Your administrators learn to configure, customize, and maintain Odoo for your specific workflows and reporting needs."
             },
             {
               icon: FileText,

@@ -111,7 +111,7 @@ export default function DeploymentService() {
                 <h3 className="text-xl font-semibold">Integration with Existing Systems</h3>
               </div>
               <p className="text-muted-foreground">
-                Need Odoo to work with other tools? We integrate Odoo seamlessly with platforms like HubSpot, Jira, Tempo Timesheets, and more to create a unified ecosystem.
+                Need Odoo to work with other tools? We connect Odoo with platforms like HubSpot, Jira, Tempo Timesheets, and more into one integrated system.
               </p>
             </CardContent>
           </Card>
@@ -133,7 +133,7 @@ export default function DeploymentService() {
                 <h3 className="text-xl font-semibold">Deployment and Go-Live</h3>
               </div>
               <p className="text-muted-foreground">
-                With all systems go, we execute the deployment plan, ensuring a seamless transition with minimal downtime.
+                With all systems go, we execute the deployment plan, ensuring a smooth transition with minimal downtime.
               </p>
             </CardContent>
           </Card>

@@ -47,7 +47,7 @@ export default function TuningService() {
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Advanced Accrual Time-Off Module: Simplify and customize accruals to match your policies.</li>
                 <li>• Time-Off Credit Management: Ensure accurate tracking and adjustments.</li>
-                <li>• Multi-Currency Contracts, Rates & Cost: Seamlessly manage international teams with built-in currency support.</li>
+                <li>• Multi-Currency Contracts, Rates & Cost: Manage international teams with built-in currency support.</li>
               </ul>
             </CardContent>
           </Card>
@@ -119,7 +119,7 @@ export default function TuningService() {
             },
             {
               title: "Implementation",
-              description: "We implement changes seamlessly to minimize disruption."
+              description: "We implement changes incrementally to minimize disruption."
             },
             {
               title: "Support",

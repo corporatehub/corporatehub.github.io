@@ -81,7 +81,7 @@ export default function DataSyncMigrationService() {
                 <h3 className="text-xl font-semibold">HubSpot to Odoo Migration</h3>
               </div>
               <p className="text-muted-foreground">
-                Switching from HubSpot to Odoo? We make the transition seamless by migrating your data with accuracy and integrity, ensuring your workflows continue without disruption.
+                Switching from HubSpot to Odoo? We migrate your data with accuracy and integrity, ensuring your workflows continue without disruption.
               </p>
             </CardContent>
           </Card>
@@ -127,7 +127,7 @@ export default function DataSyncMigrationService() {
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
           {[
             { title: "Consultation", description: "We start by understanding your existing systems, processes, and pain points." },
-            { title: "Planning", description: "A detailed project roadmap ensures a seamless integration or migration." },
+            { title: "Planning", description: "A detailed project roadmap ensures a smooth integration or migration." },
             { title: "Execution", description: "Using proven tools and methodologies, we handle the technical aspects with precision." },
             { title: "Validation", description: "Rigorous testing ensures data accuracy and functionality." },
             { title: "Support", description: "Post-deployment support to address any challenges and fine-tune the solution." },
@@ -156,7 +156,7 @@ export default function DataSyncMigrationService() {
           {[
             { title: "Minimized Downtime", description: "We prioritize business continuity throughout the process." },
             { title: "Data Integrity", description: "No loss, duplication, or corruption of data during sync or migration." },
-            { title: "Custom Configurations", description: "Tailored solutions to fit your business processes." },
+            { title: "Custom Configurations", description: "Configurations built to match your specific business processes." },
             { title: "Expert Support", description: "Our team is available to assist you at every step." },
           ].map((benefit, index) => (
             <Card key={index}>
