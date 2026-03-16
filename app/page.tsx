@@ -6,14 +6,14 @@ import { commonStyles } from './styles/common'
 import { generateStructuredData } from './utils/structuredData'
 
 export const metadata: Metadata = {
-  title: 'CorporateHub \u2014 Your profitability, visible.',
+  title: 'CorporateHub \u2014 Your agency\u2019s pulse.',
   description: 'Odoo consulting partner specializing in profitability and utilization visibility for IT services agencies. Built by an OCA maintainer with 24 modules on Odoo 18.0.',
 }
 
 export default function Home() {
   const structuredData = generateStructuredData({
     '@type': 'WebSite',
-    name: 'CorporateHub \u2014 Your profitability, visible.',
+    name: 'CorporateHub \u2014 Your agency\u2019s pulse.',
     description: 'Odoo consulting partner specializing in profitability and utilization visibility for IT services agencies. Built by an OCA maintainer with 24 modules on Odoo 18.0.',
   });
 
@@ -25,8 +25,9 @@ export default function Home() {
       />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         <section className="text-center mb-12 md:mb-16">
-          <h1 className={`text-8xl md:text-7xl font-bold mb-4 ${commonStyles.headingLight} ${commonStyles.headingDark} mb-16 md:mb-12`}>Your profitability, visible.</h1>
-          <p className={`text-xl md:text-2xl ${commonStyles.text} mb-24 md:mb-16`}>Integrated time tracking, utilization, and project profitability for services firms.</p>
+          <h1 className={`text-8xl md:text-7xl font-bold mb-4 ${commonStyles.headingLight} ${commonStyles.headingDark} mb-16 md:mb-12`}>Your agency&apos;s pulse.</h1>
+          <p className={`text-xl md:text-2xl ${commonStyles.text} mb-6 md:mb-4`}>Not your accountant&apos;s surprise.</p>
+          <p className={`text-lg md:text-xl ${commonStyles.text} mb-24 md:mb-16 opacity-70`}>Real-time project profitability and utilization for IT services agencies.</p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button asChild size="lg">
               <Link href="https://cal.com/alexey-pelykh/consultation" target="_blank">Schedule a Consultation</Link>
